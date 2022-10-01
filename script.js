@@ -11,7 +11,7 @@ $(".englishButton").click(function() {
 		// display "Wrong!" if the answer is incorrect
 		$(".englishMessage").text("Wrong!");
 		//make the "Wrong!" message "red"
-		// $(".englishMessage").css("color", "red");
+		$(".englishMessage").css("color", "red");
 	};
 });
 // 2. Social Studies section
@@ -22,12 +22,12 @@ $(".ssButton").click(function() {
 		//display "Correct!" if answer is correct
 		$(".ssMessage").text("Correct!");
 		//make the "Correct" message "green"
-		// $(".ssMessage").css("color", "green");
+		$(".ssMessage").css("color", "green");
 	} else {
 		//display "Wrong!" if answer is correct
 		$(".ssMessage").text("Wrong!");
 		//make the "Wrong!" message "red"
-		// $(".ssMessage").css("color", "red");
+		$(".ssMessage").css("color", "red");
 	}
 });
 // 3. Math section

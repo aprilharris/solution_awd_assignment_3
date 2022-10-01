@@ -1,4 +1,11 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 1rem;
+}
+.englishMessage, .ssMessage, .scienceMessage, .mathMessage {
+  padding: 0.5rem;
+  font-weight: bold;
 }
